@@ -12,6 +12,7 @@ import Questions from "@/components/Questions"
 import Navbar from "@/components/Navbar"
 import Toggle from "@/components/Toggle"
 import Loading from "@/components/sub/Loading"
+import NotFoundPage from "@/components/sub/NotFound"
 import { useEffect, useRef, useState } from "react"
 
 export default function Home() {

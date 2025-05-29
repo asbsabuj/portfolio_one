@@ -10,7 +10,7 @@ const Questions = () => {
       <div>
         <ul className="flex flex-col gap-y-3">
           {questions.map((question, i) => (
-            <Question key={i} data={question} idex={i} />
+            <Question key={i} data={question} index={i} />
           ))}
         </ul>
       </div>

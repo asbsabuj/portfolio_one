@@ -28,7 +28,7 @@ const About = () => {
             {aboutText}
           </p>
           <a
-            href="/sabuj-cv2025.pdf"
+            href="/sabuj-cv2025-2.pdf"
             download=""
             className="w-max flex items-center gap-x-2 mt-6 border border-gray-300 
           bg-red-400 font-light text-white px-3 py-2 rounded-full hover:bg-red-500 transition-colors "

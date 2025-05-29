@@ -6,6 +6,12 @@ import { delay, motion } from "framer-motion"
 const Question = ({ data, index }) => {
   const [show, setShow] = useState(false)
 
+  // const firstKey = Object.keys(data)[0] // "a"
+  // const firstValue = data[firstKey]
+
+  console.log(data, "data console")
+  console.log(Object.values(data)[0], "object cosole")
+
   const variants = {
     visible: (i) => ({
       opacity: 1,
