@@ -4,6 +4,7 @@ import Question from "./sub/Question"
 import { questions } from "@/assets"
 
 const Questions = () => {
+  //console.log(questions[0].question)
   return (
     <div id="questions" className="py-20">
       <Heading text={"Questions & Answers"} />

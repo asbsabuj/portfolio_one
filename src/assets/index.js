@@ -405,7 +405,7 @@ export const navbarData = [
 
 export const questions = [
   {
-    question: "Important Notice! Please read...",
+    question1: "Important Notice! Please read...",
     answer:
       "These questions and answers are only for demo purposes and not real. I will adding real questions and answers regarding my portfolio soon. Thank you!",
   },

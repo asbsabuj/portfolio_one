@@ -1,16 +1,10 @@
 "use client"
 import { questionArrow } from "@/assets"
 import { useState } from "react"
-import { delay, motion } from "framer-motion"
+import { motion } from "framer-motion"
 
 const Question = ({ data, index }) => {
   const [show, setShow] = useState(false)
-
-  // const firstKey = Object.keys(data)[0] // "a"
-  // const firstValue = data[firstKey]
-
-  console.log(data, "data console")
-  console.log(Object.values(data)[0], "object cosole")
 
   const variants = {
     visible: (i) => ({
@@ -43,6 +37,7 @@ const Question = ({ data, index }) => {
         <motion.span animate={{ rotate: show ? 180 : 0 }}>
           {questionArrow}
         </motion.span>
+        <span className="text-red-950 font-extrabold">{data.question1}</span>
         <span>{data.question}</span>
       </h1>
       <motion.p

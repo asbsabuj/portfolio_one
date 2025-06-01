@@ -3,6 +3,8 @@
 import Heading from "./sub/Heading"
 import Image from "next/image"
 import { motion } from "framer-motion"
+import Link from "next/link"
+import NotFoundPage from "./sub/NotFound"
 
 const Contact = () => {
   return (
@@ -58,12 +60,15 @@ const Contact = () => {
             text-sm text-gray-500 tracking-wider outline-none"
             placeholder="Write me.... "
           ></textarea>
-          <input
-            type="submit"
-            className="w-full border border-yellow-500 rounded-md bg-yellow-600 px-4 py-2
+          <div>
+            <input
+              type="submit"
+              className="w-full border border-yellow-500 rounded-md bg-yellow-600 px-4 py-2
             text-sm font-light text-white tracking-wider outline-none hover:bg-yellow-500 transition-colors cursor-pointer "
-            value="Send Message"
-          />
+              value="Send Message"
+            />
+            <Link href={<NotFoundPage />}> </Link>
+          </div>
         </motion.form>
       </div>
     </div>
