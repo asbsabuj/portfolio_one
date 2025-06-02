@@ -274,6 +274,7 @@ export const projectsData = [
     name: "E-Com2",
     desc: "E commerce website with continous ci/cd. Now it has authentiation, sign in, sign out, product demo. ",
     url: "/projects/ecom2.png",
+    liveUrl: "https://ecom-two-murex.vercel.app/",
     tech: [
       "NextJS",
       "ReactJS",
@@ -290,6 +291,7 @@ export const projectsData = [
     name: "JobFinder",
     desc: "An app for posting and finding jobs, managing job interview schedule and finding the best job solution",
     url: "/projects/JobFinder.png",
+    liveUrl: "https://mern-stack-job-finder.onrender.com/landing",
     tech: [
       "ReactJS",
       "Express-Router",
@@ -303,24 +305,35 @@ export const projectsData = [
     name: "RecipeWithReact",
     desc: "Beautiful application where one can create, edit and save recipes they like. If there is a recipe that is no longer needed, it can be deleted too.",
     url: "/projects/recipeAdd.png",
+    liveUrl: "https://velvety-gingersnap-6a1992.netlify.app/",
     tech: ["ReactJS", "CSS", "JavaScript"],
   },
   {
     name: "ShoeShop",
     desc: "A Nike like shoe shop where one can find new shoes and their prizes in a vibrant and animated reresentation.",
     url: "/projects/ShoeShop.png",
+    liveUrl: "https://shoe-shop-sjbuilds.vercel.app/",
     tech: ["ReactJS", "TailwindCSS", "JavaScript"],
+  },
+  {
+    name: "BlogPost",
+    desc: "Simple blog posting website, where you can post blog and delete blog posts",
+    url: "/projects/blogpost.png",
+    liveUrl: "https://blog-posting-rd38.onrender.com/blogs",
+    tech: ["NodeJS", "CSS", "ReactJS"],
   },
   {
     name: "NodeFarm",
     desc: "A backend app for veggies and fruits where informtion about the product and order amount can be found",
     url: "/projects/nodefarm.png",
+    liveUrl: "./components/sub/NotFound.jsx",
     tech: ["NodeJS", "CSS", "JavaScript", "HTML"],
   },
   {
     name: "MineSweeper",
     desc: "Traditional minesweeper game to remind old times with very easy user interface",
     url: "/projects/minesweeper.png",
+    liveUrl: "./components/sub/NotFound.jsx",
     tech: ["HTML", "JavaScript", "CSS"],
   },
 ]
